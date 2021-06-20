@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+}
+#navbar li{
+    list-style: none;
+    padding: 15px 5px;
+    font-size: 25px;
+
+}
+#navbar li a:hover{
+    color: black;
+
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(253, 70, 70, 0.863);
+    font-family: 'Syne Mono', monospace;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 22px 15px;
+    color: white; 
+
+}
+#intro{
+    height: 600px;
+    background: url("/static/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#intro h1{
+    font-size: 5rem;
+}
+#intro h2{
+    font-size: 3rem;
+}
+#missionsection{
+    height: 470px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: 'Syne Mono', monospace;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+.cards{
+    margin: auto;
+    /* width: 100%; */
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 30px;
+    height: 275px;
+    margin: 38px 30px;
+
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img{
+    height: 150px;
+    margin: 12px 5px;
+
+}
+.spon{
+    display: flex;
+    height: 75px;
+    width: 50%;
+    justify-content: center;
+    margin: 10px auto;
+}
+.spon img{
+    margin: 10px 40px;
+}
+.spon img:hover{
+    transform: scale(1.1);
+}
+
+.card-img img{
+    height: inherit;
+}
+#sponsorsection{
+    background-color:yellow;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px;
+    font-family: 'Syne Mono', monospace;
+
+}
+#footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Syne Mono', monospace;
+
+
+}

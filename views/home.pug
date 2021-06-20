@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js") 
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#intro
+        h1 WELCOME TO NAVIN'S DANCE ACADEMY 
+        br
+        h2 EAT SLEEP DANCE REPEAT
+    section#missionsection
+        |OUR MISSION 
+        div.cards
+            div.card
+                p ZUMBA 
+                div.card-box
+                    div.card-img
+                        img(src="./static/zumba.jpg", alt="")
+                        p NDA WELCOMES YOU
+            div.card
+                p POP,SALSA,....
+                div.card-box
+                    div.card-img
+                        img(src="./static/salsa.webp", alt="")
+                        p NDA WELCOMES YOU
+            div.card
+                p Bollywood Covers
+                div.card-box
+                    div.card-img
+                        img(src="./static/boolywood.gif", alt="")
+                        p NDA WELCOMES YOU
+    section#sponsorsection
+        |OUR SPONSORS
+        div.spon
+            img(src="./static/facebook.png", alt="")
+            img(src="./static/whatsapp.png", alt="")
+            img(src="./static/instagram.png", alt="")
+            img(src="./static/twitter.png", alt="")
