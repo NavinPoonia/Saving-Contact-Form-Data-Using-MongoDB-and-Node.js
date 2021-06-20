@@ -22,3 +22,8 @@ Write "mongod" To Start
 
 Now You Can either Use MongoDB Compass (GUI) or Start Mongo In Terminal
 
+
+![image](https://user-images.githubusercontent.com/85392154/122665097-f3dade80-d1c2-11eb-90b7-bf6d91d1010c.png)
+
+![image](https://user-images.githubusercontent.com/85392154/122665119-0a813580-d1c3-11eb-8b8d-9b646a27b815.png)
+
